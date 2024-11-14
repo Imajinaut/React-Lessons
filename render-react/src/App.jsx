@@ -1,3 +1,4 @@
+import ShoppingCart from './Cart.jsx'
 import Counter from './count.jsx'
 import Effecter from './EffectHook.jsx'
 import InterestCalculator from './Interest.jsx'
@@ -7,7 +8,7 @@ function App() {
   
   return (
     <>
-      <MemoLesson/>
+      <ShoppingCart/>
     </>
   )
 }
